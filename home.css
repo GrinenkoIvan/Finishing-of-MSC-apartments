@@ -1,0 +1,36 @@
+body{
+    
+    color:rgb(90, 90, 89);
+    background-image: url(image/bacground-imaje1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: auto;
+}
+.p_body{
+    margin-left: 140px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+    color:black;
+}
+.center_home{    
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    /* margin: 20px 50px; */
+    text-align: center; 
+    position: absolute;
+    z-index: 1;   
+    width: 80%;
+}
+.p_section{
+    margin-left: 200px;
+}
+.home-paragraf{
+    color:black
+}
