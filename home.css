@@ -9,6 +9,7 @@ body{
 }
 .p_body{
     margin-left: 140px;
+    color:black
 }
 
 h2{
@@ -27,9 +28,11 @@ h2{
     position: absolute;
     z-index: 1;   
     width: 80%;
+    color:black
 }
 .p_section{
     margin-left: 200px;
+    color:black
 }
 .home-paragraf{
     color:black
