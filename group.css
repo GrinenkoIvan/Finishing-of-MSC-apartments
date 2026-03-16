@@ -1,0 +1,44 @@
+body{
+  
+    margin: 0;
+    padding: 0;  
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  div {    
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 3px;
+  border-radius: 5px;  
+  box-shadow: 0 0 15px rgba(34, 34, 34, 0.8);
+  /* gap:15px; */
+  padding: 10px;
+  margin: 20px;
+  
+}
+
+#wraps{
+  background-color: rgb(230, 251, 244);
+  justify-content: space-around;
+}
+
+.wrap {
+  flex-basis: 200px; height: 120px;
+  align-items: center;  
+  padding: 5px;
+  margin: 15px;
+  background-color: rgb(125, 125, 113) opacity 70%;
+  border-bottom: 3px;
+  border-radius: 5px;
+  text-align: center;
+  /* gap:15px; */
+  
+}
+
+h2{
+  text-align:center
+}

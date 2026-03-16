@@ -3,16 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <title>Проект</title>
 </head>
-<body>
-    <p class="p_body">Ждём информацию</p>
 
-    <section class="center_home">
-        <h2>Предисловие</h2>
-        <p class="p_section" >Приветствую всех своих читателей, гостей, коллег, слушателей и смотрителей. Прежде чем начать свою проффесию и свой путь в ремонтно - отделочном формате я начал с истоков данной проффесии. Это конечно было так давно, что как говорится - "Много воды утекло с того времени".  </p>
-        <p class="home-paragraf"></p>
+<body>
+    <div class="top__header--menu">       
+        <ul>
+            <li><a href="index.html">ARTGALLERY-MSC.ru</a></li>
+        </ul>
+    </div>
+
+    <section class="section-red">
+        <div class="container">
+            <h3>Первый блок</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                asperiores voluptatum eveniet, nemo, dolorem possimus aperiam porro
+                illo reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                beatae officia officiis alias totam maiores magni recusandae omnis
+                autem possimus aliquid asperiores.
+            </p>
+        </div>
     </section>
+    
+    <div class="section-divider"></div>
+    
+    <section class="section-white">
+        <div class="container">
+            <h3>Второй блок</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                beatae officia officiis alias totam maiores magni recusandae omnis
+                autem possimus aliquid asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                beatae officia officiis alias totam maiores magni recusandae omnis
+                autem possimus aliquid asperiores.
+            </p>
+        </div>
+    </section>
+     <div class="phone-dropdown">
+        <button class="phone-main-btn">📞 Позвонить</button>
+        <div class="phone-dropdown-content">
+            <a href="tel:+79657010330">Менеджер: +7 (965) 701 03 30</a>
+            <a href="tel:+79657010330">Офис: +7 (903) 222 51 02</a>
+            <a href="tel:+79657010330">Бесплатно: +7 (903) 777 495 5</a>
+        </div>
+    </div>
+    <h1>Отправить сообщение в Telegram</h1>
+    
+    <textarea id="message-text" placeholder="Пиши сюда >>>."></textarea><br>
+    <button onclick="sendMessage()">Отправить</button>
+    
+    <div id="message-status">
+        <h3>Mesenger</h3>
+    </div>
+   
+    
+    <script src="JavaScript.js"></script>
+
 </body>
+
 </html>
