@@ -1,0 +1,161 @@
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.info-box {
+  width: 450px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.info-box ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.info-box li {
+  float: left;
+  list-style-type: none;
+  width: 150px;
+}
+
+.info-box li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  line-height: 3;
+  background-color: rgb(161, 41, 41);
+  color: black;
+  text-align: center;
+}
+
+.info-box li a:focus,
+.info-box li a:hover {
+  background-color: #00c4fa;
+  color: rgb(62, 242, 8);
+}
+
+.info-box li a.active {
+  background-color: #e3fc06;
+  color: rgb(50, 8, 240);
+}
+
+.info-box .panels {
+  height: 352px;
+  position: relative;
+  clear: both;
+}
+
+.info-box article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 650px;
+  padding: 10px;
+  color: rgb(229, 245, 8);
+  background-color: #a60000;
+  float:left;
+  padding-right: 10px;
+}
+
+.info-box .active-panel {
+  z-index: 1;
+}
+
+.info-box {
+  width: 450px;
+  height: 400px;
+  position: fixed;
+  top: 0;
+}
+
+.fake-content {
+  background-color: #a60000;
+  color: white;
+  padding: 10px;
+  height: 700px;
+  margin-left: 470px;
+}
+
+label[for="toggle"] {
+  font-size: 3rem;
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  top: -100px;
+}
+
+aside {
+  background-color: #a60000;
+  color: white;
+
+  width: 340px;
+  height: 100%;
+  padding: 0 20px;
+
+  position: fixed;
+  top: 0;
+  right: -370px;
+
+  transition: 0.6s all;
+}
+
+input[type="checkbox"]:checked + aside {
+  right: 10px;
+}
+
+.container__right__img{
+    width: 330px;
+    height: 200px;
+}
+
+.container__left__img{
+    width: 330px;
+    height: 200px;
+}
+.container__top__img{
+    width: 330px;
+    height: 200px;
+}
+
+
+/* файл страницы отделка */
+
+div {
+  position: relative;
+  width: 120px;
+  height: 90px;
+  left: 100px;
+  background-color: skyblue;
+  margin: 15px;
+  padding: 10px;
+}
+
+.moved {
+  transform: perspective(500px) translateZ(200px) translateY(5px) translateX(25px);
+  background-color: pink;
+  margin: 15px;
+  padding: 10px;
+}
+.roved {
+  transform: perspective(450px) translateZ(300px) translateX(55px) translateY(5px);
+  background-color: black;
+  color:white;
+  margin: 15px;
+  padding: 10px;
+}
+

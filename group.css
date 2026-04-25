@@ -5,6 +5,21 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
   }
+
+  .top__group--menu a {
+    display: block;
+    color: rgb(135, 155, 229);
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    position: fixed;
+    top: 20px;
+    right: 45%;
+    z-index: 1000;
+    
+  }  
   
   div {    
   color: black;
@@ -41,4 +56,34 @@ body{
 
 h2{
   text-align:center
+}
+
+.top__group--menu{
+  padding: 20px;
+  margin: 15px;
+}
+
+a{
+  box-shadow: 5px 5px 5px #141414;
+}
+
+@media(max-width: 360px){
+  .top__group--menu{
+    font-size:12px;
+  }
+}
+
+@media(max-width: 480px){
+  .top__group--menu a {
+    font-size:12px;
+    right: 25%;
+  }
+  .body_h3{
+    font-size: 16px;
+  }
+}
+@media(min-width: 481px){
+  .top__group--menu a{    
+    right: 25%;
+  }
 }

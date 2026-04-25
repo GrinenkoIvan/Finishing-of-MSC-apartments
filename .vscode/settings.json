@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Aura Dark",
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 14,
+    "cSpell.language": "en,ru",
+    "cSpell.caseSensitive": true,
+    "cSpell.languageSettings": [
+
+    ]
+}
